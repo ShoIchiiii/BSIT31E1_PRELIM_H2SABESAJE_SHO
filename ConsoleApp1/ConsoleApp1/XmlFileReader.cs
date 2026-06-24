@@ -2,9 +2,9 @@
 using System.IO;
 using System.Xml.Linq;
 
-namespace BaseFileReader
+namespace ConsoleApp1
 {
-    internal class XmlFileReader : BaseFileReader
+    public class XmlFileReader : BaseFileReader
     {
         public override string SupportedFormat => "XML";
 

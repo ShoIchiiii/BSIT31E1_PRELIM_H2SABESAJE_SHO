@@ -2,9 +2,9 @@
 using System.IO;
 using System.Text.Json;
 
-namespace BaseFileReader
+namespace ConsoleApp1
 {
-    internal class JsonFileReader : BaseFileReader
+    public class JsonFileReader : BaseFileReader
     {
         public override string SupportedFormat => "JSON";
 

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 
-namespace BaseFileReader
+namespace ConsoleApp1
 {
-    internal class CsvFileReader : BaseFileReader
+    public class CsvFileReader : BaseFileReader
     {
         public override string SupportedFormat => "CSV";
 
